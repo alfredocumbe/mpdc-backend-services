@@ -1,0 +1,13 @@
+
+1. criar a base de dados
+
+   1.1 criar um volume com o nome sqlserver01 para a base de dados
+   1.2 executar o seguinte comando:
+docker run -e "ACCEPT_EULA=Y" -e MSSQL_SA_PASSWORD=SsMs#P@ssw0rd2023!  --name sqlserver01 -v sqlserver01:/var/opt/mssql -p 1533:1433  -d mcr.microsoft.com/mssql/server:2022-latest
+   1.3 connhectar a base de dados sqlserver e executar o script "db-schema.sql"
+   
+2. docker build -t mpdc-backend-services .
+
+3. docker run  --name backend-services01 -p 7249:7249  -d mpdc-backend-services:latest
+
+4. Aceder o link https://localhost:7249/swagger/index.html
