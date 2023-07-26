@@ -3818,11 +3818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc-backend-services\\mpdc-backend-services.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc\\mpdc-backend-services\\mpdc-backend-services.csproj",
       "projectName": "mpdc-backend-services",
-      "projectPath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc-backend-services\\mpdc-backend-services.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc\\mpdc-backend-services\\mpdc-backend-services.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc-backend-services\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc\\mpdc-backend-services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

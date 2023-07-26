@@ -24,4 +24,5 @@ public class DataContext : DbContext
     public DbSet<Image> AssetImages { get; set; }
     public DbSet<OtherDescription> AssetDescriptions { get; set; }
     public DbSet<Warranty> Warranties { get; set; }
+    public DbSet<User> Users { get; set; }
 }

@@ -41,3 +41,24 @@ CREATE TABLE asset_images (
   asset_id INT,
   FOREIGN KEY (asset_id) REFERENCES assets(id)
 );
+
+
+CREATE TABLE users (
+  id                INT           NOT NULL    IDENTITY    PRIMARY KEY,
+  userName          VARCHAR(100) NOT NULL,
+  password   VARCHAR(200) NOT NULL,
+  url VARCHAR(200) NOT NULL,
+  asset_id INT,
+  FOREIGN KEY (asset_id) REFERENCES assets(id)
+);
+
+CREATE TABLE users (
+    id            INT           NOT NULL    IDENTITY    PRIMARY KEY,
+    first_name    VARCHAR (100) NOT NULL,
+    last_name     VARCHAR (100) NULL,
+    email         VARCHAR (100) NOT NULL,
+    user_name     VARCHAR (100) NOT NULL,
+    password      VARCHAR (250) NOT NULL
+);
+
+

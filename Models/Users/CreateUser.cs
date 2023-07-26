@@ -2,9 +2,8 @@ namespace WebApi.Models.Users;
 
 using System.ComponentModel.DataAnnotations;
 
-public class CreateRequest
+public class CreateUser
 {
-
     [Required]
     public string FirstName { get; set; }
 
@@ -15,4 +14,9 @@ public class CreateRequest
     [EmailAddress]
     public string Email { get; set; }
 
+    [Required]
+    public string UserName { get; set; }
+
+    [Required]
+    public string Password { get; set; }
 }

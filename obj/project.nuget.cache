@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kvTBAzJ2mABEcCbDww+sWvEx3WfNdIU7fJsVZkoYlbsUgAb2RDkYWZhYv66lWjiD5p/SZEXQPebw4PkHMPPbdQ==",
+  "dgSpecHash": "cL9riMqwbQTDvX9NVG7e0kTPsY18+BfWWBpg0/1kCHc6VS+zKSYePnH68BlYco5BOVObP0P1xVz6l7KyM7L2EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc-backend-services\\mpdc-backend-services.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\,NET 6 CORE\\mpdc\\mpdc-backend-services\\mpdc-backend-services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
