@@ -27,4 +27,4 @@
   docker run --network mpdc  --name backend-services01 -p 7272:80 -d mpdc-backend-services:latest
   ```
 
-6. Aceder o link https://localhost:7272/swagger/index.html
+6. O serviço estará exporto a seguinte e endereço  https://localhost:7272
