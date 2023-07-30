@@ -28,3 +28,5 @@
   ```
 
 6. O serviço estará exposto a seguinte e endereço https://localhost:7272
+
+7. Instalar o SSRS e carregar o ficheiro de relatorio assetReportTest.rdl
